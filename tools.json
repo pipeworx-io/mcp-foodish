@@ -1,0 +1,37 @@
+[
+  {
+    "name": "random",
+    "description": "Return a random food dish image URL from the Foodish API, drawn from any category (biryani, burger, pizza, pasta, dessert, etc.).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "random_by_category",
+    "description": "Return a random food image URL for a specific category; valid categories: biryani, burger, butter-chicken, dessert, dosa, idly, pasta, pizza, rice, samosa.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string",
+          "enum": [
+            "biryani",
+            "burger",
+            "butter-chicken",
+            "dessert",
+            "dosa",
+            "idly",
+            "pasta",
+            "pizza",
+            "rice",
+            "samosa"
+          ]
+        }
+      },
+      "required": [
+        "category"
+      ]
+    }
+  }
+]

@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-foodish",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Foodish MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "foodish",
     "gatewaySlug": "foodish",
-    "sourceHash": "v1-7606af8d9874d54d8441a8abb2fb9dfea3a877badd9697e05a47b8e3403da08f",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-d883b29bceb6c9d76674b0a119ae7cb8e47e5643e0a3e7eddbf24fcf4589e375",
+    "sourceCommit": "030233f6b150a38a44421f88a5fcbad123f0fea8"
   }
 }
